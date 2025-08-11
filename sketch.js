@@ -3,7 +3,7 @@ let bgElements = [];
 let grainGraphics;
 
 function setup() {
-  createCanvas(900, 900);
+  createCanvas(windowWidth, windowHeight);
   colorMode(HSB, 360, 100, 100, 255);
   background(35, 20, 95);
   noFill();
